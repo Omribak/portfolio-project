@@ -1,0 +1,14 @@
+body {
+  color: white;
+}
+
+.option-button {
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 2px solid transparent; /* Add a transparent border bottom */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.option-button:hover {
+  border-color: blue; /* Change border color to blue on hover */
+}

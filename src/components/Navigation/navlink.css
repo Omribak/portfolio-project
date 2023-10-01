@@ -1,0 +1,9 @@
+.nav-link {
+  font-family: cursive;
+  transition: transform 0.5s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #0096ff;
+}

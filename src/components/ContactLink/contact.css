@@ -1,0 +1,68 @@
+.row {
+  margin-top: 40px;
+  display: flex;
+}
+
+.contact-left {
+  margin-top: 30px;
+  flex-basis: 35%;
+}
+
+.contact-right {
+  margin-top: 20px;
+  flex-basis: 65%;
+  overflow: visible;
+}
+
+.contact-left p {
+  margin-top: 30px;
+}
+
+.contact-right form {
+  width: 50%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  background: #262626;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+form .btn {
+  background-color: blue;
+  padding: 14px 60px;
+  font-size: 18px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.mail {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.mail .mail-icon {
+  margin-right: 10px;
+  margin-top: 33px;
+}
+
+.phone {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.phone .phone-icon {
+  margin-right: 10px;
+  margin-top: 33px;
+}
+
+.blue-toast .Toastify__progress-bar {
+  background: #007bff;
+}
